@@ -1,0 +1,41 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:latest
+    env_file:
+      - ./envs/prod.env
+    volumes:
+      - postgres:/var/lib/postgresql/data
+
+  backend:
+    image: registry.gitlab.propulsion-home.ch/full-stack/batch-23-feb-2023/motion-backend/teamone:master
+    env_file:
+      - ./envs/prod.env
+    command: "sh /scripts/prod.sh"  # notice the different script and env files for development and production
+    depends_on:
+      - postgres
+    volumes:
+      - media-files:/media-files
+      - static-files:/static-files
+      - build:/frontend/build
+
+  nginx:
+    image: nginx:latest
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - static-files:/static-files
+      - media-files:/media-files
+      - build:/build
+      - /etc/letsencrypt:/etc/letsencrypt
+
+volumes:
+  postgres:
+  static-files:
+  media-files:
+  build:
+

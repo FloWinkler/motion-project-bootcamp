@@ -1,0 +1,10 @@
+.idea
+.DS_Store
+*.pyc
+__pycache__
+*.sqlite3
+media-files
+static-files
+/app/.coverage
+/app/htmlcov
+/frontend/node_modules/

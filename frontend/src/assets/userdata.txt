@@ -1,0 +1,6 @@
+email: poyoj23372@pubpng.com
+username: Poyo
+firstname: Paco
+lastname: Yolo
+validation code: 85216
+password: 1234Tras
