@@ -16,7 +16,6 @@ Recreated the layout using styled components.
 We implemented Redux for global state management, so we discussed and determined what data needs to be stored in Redux and set up the Redux store with appropriate slices and initial state to manage global state effectively and avoid data duplication.
 
     
-<img src="https://github.com/FloWinkler/motion-project-bootcamp/assets/135036974/e043dc42-3418-4e54-8c7e-438b813324c7" align="center"     /><br><br>
 <img src="https://github.com/FloWinkler/motion-project-bootcamp/assets/135036974/37530db9-b59f-49a6-a06b-4f0bccc7ed98" align="center"     /><br><br>
 <img src="https://github.com/FloWinkler/motion-project-bootcamp/assets/135036974/de83fb05-1650-4576-a359-d0f5fdcd4b04" align="center"     /><br><br>
 <img src="https://github.com/FloWinkler/motion-project-bootcamp/assets/135036974/223653fe-7614-4f26-b1e8-29e393af55d0" align="center"     /><br><br>
