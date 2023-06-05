@@ -2,7 +2,7 @@
     <samp>
         <b>
             <a>
-                <🎨 size="40px"
+               🎨
                 <br>
                 MOTION SOCIAL MEDIA WEBSITE
             </a>
