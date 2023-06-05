@@ -2,7 +2,7 @@
     <samp>
         <b>
             <a>
-                ⭐⭐⭐⭐⭐
+                🎨
                 <br>
                 MOTION SOCIAL MEDIA WEBSITE
             </a>
