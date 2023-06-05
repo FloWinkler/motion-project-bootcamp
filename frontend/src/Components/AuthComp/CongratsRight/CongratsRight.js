@@ -10,6 +10,7 @@ import {
   RightSide,
 } from "./CongratsRight.style";
 
+
 function CongratsRight() {
   const navigate = useNavigate();
 
