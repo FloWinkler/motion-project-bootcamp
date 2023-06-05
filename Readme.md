@@ -12,7 +12,8 @@
 
 The backend for this project is no longer running since it was developed as a bootcamp project for learning purposes.
 
-The Project involved various features, such as user access, models (restaurant, review, user), authentication, search, and bonus features. It emphasized clean code, documentation, Docker integration, deployment, permissions, and SMTP service for emailing.
+Recreated the layout using styled components. 
+We implemented Redux for global state management, so we discussed and determined what data needs to be stored in Redux and set up the Redux store with appropriate slices and initial state to manage global state effectively and avoid data duplication.
 
 <img src="https://github.com/FloWinkler/motion-project-bootcamp/assets/135036974/6c079c08-adbc-4646-b083-221fc2f44c58" align="center"     /><br><br>
 <img src="https://github.com/FloWinkler/motion-project-bootcamp/assets/135036974/6af7c04c-537e-49cc-a433-09c3e6ece68b" align="center"     /><br><br>
