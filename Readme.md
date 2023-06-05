@@ -10,7 +10,7 @@
     <samp/>
 </h3>
 
-ℹ️ The backend for this project is no longer running since it was a bootcamp-project developed for learning purposes.
+ℹ️ The backend is no longer running since it was a bootcamp-project developed for learning purposes.
 
 Recreated the layout using styled components. 
 We implemented Redux for global state management, so we discussed and determined what data needs to be stored in Redux and set up the Redux store with appropriate slices and initial state to manage global state effectively and avoid data duplication.
